@@ -35,7 +35,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MODEL_PATH = "model.h5"
+MODEL_PATH = "model.h51"
 
 
 # ----------------------------------------------------------------------
@@ -122,7 +122,7 @@ st.divider()
 
 
 # ----------------------------------------------------------------------
-# LOAD MODEL (with error handling in case model.h5 is missing)
+# LOAD MODEL (with error handling in case model.h51 is missing)
 # ----------------------------------------------------------------------
 model = None
 model_error = None
