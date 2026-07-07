@@ -47,7 +47,7 @@ def get_tensorflow_components():
 # ----------------------------------------------------------------------
 EPOCHS = 10
 BATCH_SIZE = 128
-MODEL_SAVE_PATH = "model.h5"
+MODEL_SAVE_PATH = "model.h51"
 PLOT_SAVE_PATH = os.path.join("assets", "screenshots", "training_history.png")
 
 
