@@ -20,7 +20,7 @@ from tensorflow.keras.models import load_model
 
 from utils import preprocess_image, prepare_for_model
 
-MODEL_PATH = "model.h5"
+MODEL_PATH = "model.h51"
 
 
 def load_trained_model(model_path=MODEL_PATH):
